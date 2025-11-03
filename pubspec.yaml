@@ -1,0 +1,57 @@
+name: testai
+description: "我的第一个flutter程序"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI相关
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+
+  # 状态管理
+  provider: ^6.1.1
+
+  # 网络请求
+  http: ^1.1.0
+  dio: ^5.4.0
+
+  # 本地存储
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+
+  # JSON序列化
+  json_annotation: ^4.8.1
+
+  # Markdown渲染
+  flutter_markdown: ^0.6.18
+  markdown: ^7.2.2
+
+  # 代码高亮
+  flutter_highlight: ^0.7.0
+  highlight: ^0.7.0
+
+  # UUID生成
+  uuid: ^4.2.2
+
+  # 分享功能
+  share_plus: ^7.2.2
+
+  # URL启动器（用于Markdown链接）
+  url_launcher: ^6.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
